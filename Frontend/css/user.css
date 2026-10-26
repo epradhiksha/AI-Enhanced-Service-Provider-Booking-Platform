@@ -1,0 +1,48 @@
+.container{
+    padding: 30px 20px; 
+    border-radius: 8px; 
+    border-color: #a2c4e6;
+    border: 3px solid #a2c4e6;
+    box-sizing: border-box;
+
+    margin: 40px auto;
+    width: calc(100% - 20px); 
+    max-width: 450px;
+    height: 100%;
+    
+    
+}
+
+.input{
+    flex-direction: column;
+    display: flex;
+    gap:20px;
+    width:auto;
+    margin-top: 20px;
+    
+}
+
+#Login, #Signup{
+    margin-top: 20px;
+    width: 100%;
+}
+a{
+    font-size: medium;
+}
+
+.signup, .login{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    font-style: italic;
+    font-size: larger;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+::-webkit-inner-spin-button
