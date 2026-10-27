@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="Stylesheet" href="../Frontend/css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="../Frontend/css/index.css">
 </head>
 <body>
     <div class="container">
     <header>Identify your account type</header>
-    <div class="role-selection">
-        <button onclick="window.location.href='provider-login.html'">I'm a Service Provider</button>
-    </div>
-    <div class="role-selection">
-        <button onclick="window.location.href='user-login.html'">I need a service </button>
+   
+        <a class="role-card" href="provider-login.html">
+            <span class="material-symbols-outlined">handyman</span>
+            <span>I'm a Service Provider</span>
+        </a>
+
+        <a class="role-card" href="user-login.html">
+            <span class="material-symbols-outlined">person</span>
+            <span >I need a service</span>
+        </a>
     </div>
     </div>
 
